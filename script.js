@@ -22,6 +22,17 @@ var certifications = [
   { name: "RPA Developer", year: "2019" }
 ];
 
+var projects = [
+  { projectName: "Watch On Nature", image: "./assets/project-8.png", stack:["Next.js", "React Leaflets", "Tailwind CSS"] },
+  { projectName: "TallElf", image: "./assets/project-7.png", stack:["Next.js", "React Leaflets", "Tailwind CSS"] },
+  { projectName: "Merchandising Modernization", image: "./assets/project-6.png", stack:["Next.js", "React Leaflets", "Tailwind CSS"] },
+  { projectName: "Genie Stocks", image: "./assets/project-5.png", stack:["Next.js", "React Leaflets", "Tailwind CSS"] },
+  { projectName: "LesiPay/eZLoan", image: "./assets/project-4.png", stack:["Next.js", "React Leaflets", "Tailwind CSS"] },
+  { projectName: "One Wallet", image: "./assets/project-3.png", stack:["Next.js", "React Leaflets", "Tailwind CSS"] },
+  { projectName: "SAQ - Contract Initiation", image: "./assets/project-2.png", stack:["Next.js", "React Leaflets", "Tailwind CSS"] },
+  { projectName: "DMS vs SAP Reconciliation", image: "./assets/project-1.png", stack:["Next.js", "React Leaflets", "Tailwind CSS"] }
+];
+
 function getWorkExperience(){
   
   var workExperienceContainer = document.getElementById("workExperienceList");

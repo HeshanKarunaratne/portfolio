@@ -256,6 +256,16 @@ section {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
+.btn-color-3 {
+  background: none;
+  color: black;
+}
+
+.btn-color-3:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
 .btn-container {
   gap: 1rem;
 }
@@ -266,10 +276,11 @@ section {
   position: relative;
 }
 
+
 .about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .about-details-container {
@@ -326,10 +337,12 @@ section {
   margin-bottom: 2rem;
 }
 
+
 .experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  overflow-x: auto;
 }
 
 .article-container {
@@ -366,8 +379,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 50%;
+  height: 50%;
 }
 
 .project-title {
